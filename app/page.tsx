@@ -1,4 +1,6 @@
 import Nav from "@/components/Nav";
+import ScrollProgress from "@/components/ScrollProgress";
+import AskAssistant from "@/components/AskAssistant";
 import { Hero, About } from "@/components/Sections";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
@@ -9,6 +11,7 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
+      <ScrollProgress />
       <Nav />
       <main>
         <Hero />
@@ -19,6 +22,7 @@ export default function Home() {
         <Education />
         <Contact />
       </main>
+      <AskAssistant />
       <footer className="border-t border-border-subtle py-8 text-center text-sm text-muted">
         <p>© 2026 Muhammad Bilal · Built with Next.js &amp; Tailwind CSS</p>
       </footer>

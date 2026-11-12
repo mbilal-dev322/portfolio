@@ -111,6 +111,7 @@ export const experience: Experience[] = [
 ];
 
 export type Project = {
+  slug: string;
   name: string;
   subtitle: string;
   stack: string;
@@ -122,6 +123,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     name: "Growlio",
+    slug: "growlio",
     subtitle: "AI-Powered Restaurant Management Platform",
     stack: "Django REST, PostgreSQL, OpenAI, LangChain, Vector DB",
     period: "June 2025 – Present",
@@ -138,6 +140,7 @@ export const projects: Project[] = [
   },
   {
     name: "Rating Raja",
+    slug: "rating-raja",
     subtitle: "Amazon Seller Automation Platform",
     stack: "Django REST, Python, AWS EC2, Amazon SP-API, Razorpay",
     period: "Feb 2026 – April 2026",
@@ -153,6 +156,7 @@ export const projects: Project[] = [
   },
   {
     name: "Stagger",
+    slug: "stagger",
     subtitle: "Amazon Data Automation",
     stack: "Python, BigQuery, Amazon SP-API, Google Apps Script",
     period: "February 2025 – June 2025",
@@ -165,6 +169,7 @@ export const projects: Project[] = [
   },
   {
     name: "Amazon Data Integration",
+    slug: "amazon-data-integration",
     subtitle: "Automated Amazon reporting pipelines",
     stack: "Python, MySQL, Google Sheets, Playwright",
     period: "October 2024 – March 2025",
@@ -178,9 +183,11 @@ export const projects: Project[] = [
   },
   {
     name: "Sofia",
+    slug: "sofia",
     subtitle: "Multi-Store E-commerce Platform",
     stack: "Node.js, TypeScript, PostgreSQL",
     period: "June 2024 – September 2024",
+    image: "/generated/project-sofia.jpg",
     points: [
       "Developed backend services integrating Shopify and AliExpress stores into a unified platform.",
       "Implemented product import, order management, and store synchronization workflows.",
@@ -189,9 +196,11 @@ export const projects: Project[] = [
   },
   {
     name: "Walmart Sales Forecasting",
+    slug: "walmart-sales-forecasting",
     subtitle: "Final Year Project — ML-based sales prediction",
     stack: "Python, Pandas, NumPy, Scikit-learn",
     period: "August 2023 – October 2023",
+    image: "/generated/project-walmart.jpg",
     points: [
       "Cleaned and preprocessed Walmart sales data using Python, Pandas, and NumPy.",
       "Performed exploratory data analysis and visualization to identify sales trends and patterns.",

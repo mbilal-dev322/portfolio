@@ -85,6 +85,13 @@ export function Hero() {
           >
             Get in touch
           </a>
+          <a
+            href="/resume.pdf"
+            download="Muhammad_Bilal_Resume.pdf"
+            className="rounded-lg border border-border-subtle px-6 py-3 text-sm font-semibold transition-colors hover:border-accent hover:text-accent"
+          >
+            Download resume ↓
+          </a>
         </div>
 
         {/* Floating tech badges */}
