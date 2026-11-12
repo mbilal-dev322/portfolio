@@ -115,6 +115,7 @@ export type Project = {
   subtitle: string;
   stack: string;
   period: string;
+  image?: string;
   points: string[];
 };
 
@@ -124,6 +125,7 @@ export const projects: Project[] = [
     subtitle: "AI-Powered Restaurant Management Platform",
     stack: "Django REST, PostgreSQL, OpenAI, LangChain, Vector DB",
     period: "June 2025 – Present",
+    image: "/generated/project-growlio.jpg",
     points: [
       "Developed a restaurant management platform for expense tracking, financial goals, revenue analytics, and business performance monitoring.",
       "Built scalable REST APIs using Django REST Framework for users, expenses, revenue analytics, and platform operations.",
@@ -139,6 +141,7 @@ export const projects: Project[] = [
     subtitle: "Amazon Seller Automation Platform",
     stack: "Django REST, Python, AWS EC2, Amazon SP-API, Razorpay",
     period: "Feb 2026 – April 2026",
+    image: "/generated/project-ratingraja.jpg",
     points: [
       "Developed a platform enabling Amazon sellers to connect their accounts through Amazon SP-API for automated order and review management.",
       "Integrated Amazon SP-API to synchronize order information and determine eligibility for automated review requests.",
@@ -153,6 +156,7 @@ export const projects: Project[] = [
     subtitle: "Amazon Data Automation",
     stack: "Python, BigQuery, Amazon SP-API, Google Apps Script",
     period: "February 2025 – June 2025",
+    image: "/generated/project-stagger.jpg",
     points: [
       "Integrated Amazon SP-API to retrieve sales and inventory data for automated reporting workflows.",
       "Processed and stored data in BigQuery for centralized analysis and reporting.",
@@ -164,6 +168,7 @@ export const projects: Project[] = [
     subtitle: "Automated Amazon reporting pipelines",
     stack: "Python, MySQL, Google Sheets, Playwright",
     period: "October 2024 – March 2025",
+    image: "/generated/project-amazon-integration.jpg",
     points: [
       "Developed Python-based integrations to retrieve and process Amazon SP-API reports and business data.",
       "Automated data synchronization between backend systems and Google Sheets using Apps Script and JDBC.",
